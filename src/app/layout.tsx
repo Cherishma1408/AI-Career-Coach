@@ -16,6 +16,14 @@ export const metadata: Metadata = {
   title: 'AI Career Coach - Intelligent Career Platform',
   description:
     'Accelerate your career with genuine resume ATS scoring, personalized skill gap roadmaps, live camera & voice mock interviews, and verified global job feeds with zero mock data.',
+  icons: {
+    icon: [
+      { url: '/assets/logo-mark.png', type: 'image/png' },
+      { url: '/favicon.ico' },
+    ],
+    shortcut: '/assets/logo-mark.png',
+    apple: '/assets/logo-mark.png',
+  },
 };
 
 export default function RootLayout({
