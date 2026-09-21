@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="aiCoachGrad" x1="6" y1="4" x2="42" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <linearGradient id="aiAccentGrad" x1="30" y1="6" x2="44" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main AI Career Star / Compass (Center) -->
+  <path
+    d="M24 4C24 13.94 15.94 22 6 22C15.94 22 24 30.06 24 40C24 30.06 32.06 22 42 22C32.06 22 24 13.94 24 4Z"
+    fill="url(#aiCoachGrad)"
+  />
+
+  <!-- Top-right Career Accelerator Sparkle -->
+  <path
+    d="M37 6C37 9.87 33.87 13 30 13C33.87 13 37 16.13 37 20C37 16.13 40.13 13 44 13C40.13 13 37 9.87 37 6Z"
+    fill="url(#aiAccentGrad)"
+  />
+
+  <!-- Bottom-left Micro Sparkle -->
+  <path
+    d="M11 31C11 33.2 9.2 35 7 35C9.2 35 11 36.8 11 39C11 36.8 12.8 35 15 35C12.8 35 11 33.2 11 31Z"
+    fill="#818cf8"
+  />
+
+  <!-- Center Core Reflection Ring -->
+  <circle cx="24" cy="22" r="3.2" fill="#ffffff" />
+</svg>

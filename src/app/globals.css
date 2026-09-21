@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #f7f5f2;
+  --foreground: #262a2a;
+  --card: #ffffff;
+  --border: #e2ded7;
+  --terracotta: #ca9881;
+  --terracotta-hover: #b98871;
+  --slate-pine: #4e5958;
+  --sand: #eae5df;
+  --font-serif: "Playfair Display", Georgia, Cambria, serif;
+  --font-sans: "Plus Jakarta Sans", var(--font-geist-sans), system-ui, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-terracotta: var(--terracotta);
+  --color-slate-pine: var(--slate-pine);
+  --color-sand: var(--sand);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, .font-heading {
+  font-family: var(--font-serif);
+}
